@@ -1,0 +1,18 @@
+button {
+  color: blueviolet;
+  border-radius: 50px;
+  width: 4rem;
+  height: 1.7rem;
+}
+
+.dark-theme {
+  background-color: black;
+  border: 1px dotted whitesmoke;
+  transition: ease-in 50ms;
+}
+.light-theme {
+  background-color: whitesmoke;
+  border: 1px dotted black;
+  transition: ease-in 50ms;
+}
+
