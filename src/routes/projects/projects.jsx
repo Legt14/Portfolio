@@ -3,7 +3,9 @@ import { Repo } from "../../components/reposComponent/ReposComponent"
 function ProjectRoute() {
   return (
     <>
-      <Repo />
+      <main className="w-full">
+        <Repo />
+      </main>
     </>
   )
 }

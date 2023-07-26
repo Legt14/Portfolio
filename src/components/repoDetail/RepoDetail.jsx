@@ -22,6 +22,8 @@ function RepoDetail({ detail }) {
           {detail.description}
           <br />
           Technology: {detail.language}
+          <br />
+          Created at: {detail.created_at}
         </section>
       </section>
     </article >

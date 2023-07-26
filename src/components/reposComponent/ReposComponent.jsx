@@ -16,6 +16,7 @@ export function Repo() {
       {repo ? repo.map(data => (
         <RepoUI key={data.id} props={data} isOpen={openRepoId === data.id} toggleOpen={toggleOpen} />
       )) : (<span className="animate-pulse">Loading...</span>)}
+
     </section>
   </>)
 }

@@ -11,7 +11,7 @@ export function ToggleButton({ name }) {
   };
 
   return (<>
-    <button onClick={handleThemeToggle} className={`w-16 h-6 border-2 rounded-xl flex items-center justify-center border-BlueZodiac dark:border-wildSand transition ease-in ms-50`} >
+    <button onClick={handleThemeToggle} className={`flex items-center justify-center border-BlueZodiac dark:border-wildSand transition ease-in ms-50`} >
       {name}
     </button>
   </>)
