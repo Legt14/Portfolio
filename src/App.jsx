@@ -18,7 +18,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-      <section className={`${theme} font-Work`}>
+      <section className={`${theme} font-Work transition duration-700 ease-in-out`}>
         <section className="pr-11 pl-11 pt-8 min-h-screen min-w-screen bg-wildSand dark:bg-CodGray text-CodGray dark:text-wildSand flex flex-col sm:flex-row sm:justify-between gap-3 ">
           <aside className="p-2">
             <header>

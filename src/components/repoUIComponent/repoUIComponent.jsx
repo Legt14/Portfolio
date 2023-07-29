@@ -13,7 +13,10 @@ function RepoUI({ props, isOpen, toggleOpen }) {
         </section>
         <section className={`
         border-b-2
-        ${isOpen ? 'border-abbey dark:border-wildSand' : 'border-abbey/50 dark:border-wildSand/50'}
+        border-r-8
+        rounded-br-xl
+        transition duration-700 ease-in-out
+        ${isOpen ? 'border-Allports dark:border-bittersweet' : 'border-Allports/40 dark:border-bittersweet/75'}
 `}>
           {isOpen && <RepoDetail detail={props} />}
         </section>

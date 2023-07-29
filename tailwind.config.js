@@ -15,7 +15,11 @@ export default {
         'bittersweet': '#ff6b6b',
         'BlueZodiac': '#0a1a33',
         'Flamingo': '#f15a27',
-        'CodGray': '#1c1c1c'
+        'CodGray': '#1c1c1c',
+        'CarrotOrange': '#f29026',
+        'cyan': '#6bffff',
+        'Allports': '#006da3'
+
       },
       fontFamily: {
         'Space': ['Space Grotesk'],
