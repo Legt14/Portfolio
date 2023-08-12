@@ -21,7 +21,7 @@ function GithubProvider({ children }) {
       }
     }
     getData()
-  }, [])
+  }, [api])
   return (<>
     <GithubContext.Provider value={{ user }}>
       {children}
@@ -46,7 +46,6 @@ function ReposProvider({ children }) {
         const repos = response.data.filter((item) => item.topics.includes('portfolio'))
         repos.sort((a, b) => getDate(b.created_at) - getDate(a.created_at))
         setRepo(repos)
-        console.info(response)
       } catch (error) {
         console.error((error))
       }

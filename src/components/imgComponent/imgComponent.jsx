@@ -15,8 +15,6 @@ const cld = new Cloudinary(
 const myImg = (prop) => cld.image(`portfolio/${prop}`)
 
 function ImgComponent({ name }) {
-  console.log(import.meta.env.VITE_CLOUDNAME)
-  console.log(myImg(name))
   return (<>
     <AdvancedImage cldImg={myImg(name)} plugins={[lazyload(), placeholder()]} />
   </>)

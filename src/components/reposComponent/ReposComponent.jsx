@@ -15,7 +15,7 @@ export function Repo() {
     <section className="w-full flex flex-col gap-4">
       {repo ? repo.map(data => (
         <RepoUI key={data.id} props={data} isOpen={openRepoId === data.id} toggleOpen={toggleOpen} />
-      )) : (<span className="animate-pulse">Loading...</span>)}
+      )) : (<span className="animate-pulse p-2 text-xl">Loading...</span>)}
 
     </section>
   </>)
