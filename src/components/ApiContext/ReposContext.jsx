@@ -14,7 +14,6 @@ function GithubProvider({ children }) {
     const getData = async () => {
       try {
         const response = await axios.get(api)
-        console.info(response)
         setUser(response)
       } catch (e) {
         console.error(e)

@@ -7,9 +7,6 @@ function ThemeProvider({ children }) {
   const [theme, setTheme] = React.useState(' ')
   const toggleTheme = () => {
     theme === ' ' ? setTheme('dark') : setTheme(' ')
-    console.log(
-      theme
-    )
   }
 
   return (<>
